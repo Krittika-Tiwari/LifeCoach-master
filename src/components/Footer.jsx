@@ -10,9 +10,9 @@ const Footer = () => {
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center mb-4">
               <img 
-                src="/images/logo.svg" 
+                src="/images/logo.jpeg" 
                 alt="Sunita Life Coach" 
-                className="h-6 w-6 sm:h-8 sm:w-8 mr-3"
+                className="h-6 w-6 sm:h-8 sm:w-8 mr-3 rounded-full"
               />
               <h3 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-violet-400 to-indigo-400 bg-clip-text text-transparent">
                 Sunita
