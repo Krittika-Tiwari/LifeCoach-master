@@ -140,7 +140,7 @@ const Services = () => {
                 <span className="text-xs sm:text-sm text-primary font-medium">
                   {program.duration}
                 </span>
-                <Link to="/book">
+                <Link to="/book" className="w-full">
                   <Button
                     variant="outline"
                     size="sm"
