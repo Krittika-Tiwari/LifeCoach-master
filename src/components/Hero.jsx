@@ -11,11 +11,7 @@ const Hero = () => {
           <div className="text-center lg:text-left space-y-8">
             <div className="space-y-4">
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start mb-6">
-                <img 
-                  src="/images/logo.svg" 
-                  alt="Sunita Life Coach Logo" 
-                  className="h-12 w-12 sm:h-16 sm:w-16 mb-2 sm:mb-0 sm:mr-4"
-                />
+               
                 <div className="text-xl sm:text-2xl font-bold text-primary font-lora text-center sm:text-left">Sunita Life Coach</div>
               </div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold font-lora leading-tight text-foreground text-center lg:text-left">
