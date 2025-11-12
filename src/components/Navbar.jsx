@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
 import { ThemeToggle } from "./ThemeToggle";
@@ -7,10 +7,26 @@ import { cn } from "../lib/utils";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navRef = useRef(null);
+
+  useEffect(() => {
+    if (!isOpen) return;
+
+    function handleOutsideClick(e) {
+      // Only treat as outside click on small screens (tailwind lg = 1024px)
+      if (window.innerWidth >= 1024) return;
+      if (navRef.current && !navRef.current.contains(e.target)) {
+        setIsOpen(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleOutsideClick);
+    return () => document.removeEventListener("mousedown", handleOutsideClick);
+  }, [isOpen]);
 
   return (
     <nav className="fixed top-0 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-50 border-b border-border">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div ref={navRef} className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center space-x-3">
@@ -31,7 +47,6 @@ const Navbar = () => {
               Sunita
             </h1>
           </div>
-
 
           <ul className="hidden lg:flex items-center space-x-10 font-lora font-medium text-lg">
             <li>
@@ -125,6 +140,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/#home"
+                onClick={() => setIsOpen(false)}
                 className="block text-foreground hover:text-primary py-2 transition-colors duration-200"
               >
                 Home
@@ -133,6 +149,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/#about"
+                onClick={() => setIsOpen(false)}
                 className="block text-foreground hover:text-primary py-2 transition-colors duration-200"
               >
                 About
@@ -141,6 +158,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/#services"
+                onClick={() => setIsOpen(false)}
                 className="block text-foreground hover:text-primary py-2 transition-colors duration-200"
               >
                 Services
@@ -149,6 +167,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/#testimonials"
+                onClick={() => setIsOpen(false)}
                 className="block text-foreground hover:text-primary py-2 transition-colors duration-200"
               >
                 Testimonials
@@ -157,6 +176,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/#faq"
+                onClick={() => setIsOpen(false)}
                 className="block text-foreground hover:text-primary py-2 transition-colors duration-200"
               >
                 FAQ
@@ -165,6 +185,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/#contact"
+                onClick={() => setIsOpen(false)}
                 className="block text-foreground hover:text-primary py-2 transition-colors duration-200"
               >
                 Contact
@@ -176,7 +197,9 @@ const Navbar = () => {
                 size="lg"
                 className="w-full rounded-full bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-700 hover:to-indigo-700 text-white border-0 font-medium shadow-lg"
               >
-                <Link to="/book">Book a Session</Link>
+                <Link to="/book" onClick={() => setIsOpen(false)}>
+                  Book a Session
+                </Link>
               </Button>
             </li>
           </ul>

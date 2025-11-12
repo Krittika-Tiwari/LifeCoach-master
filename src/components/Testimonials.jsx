@@ -85,7 +85,7 @@ const Testimonials = () => {
             <div className="text-muted-foreground">Lives Transformed</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-primary mb-2">15+</div>
+            <div className="text-4xl font-bold text-primary mb-2">5+</div>
             <div className="text-muted-foreground">Years Experience</div>
           </div>
           <div className="text-center">
