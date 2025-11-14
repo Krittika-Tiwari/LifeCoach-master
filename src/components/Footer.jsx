@@ -1,5 +1,13 @@
-import React from 'react';
-import { Heart, Mail, Phone, MapPin, Instagram, Linkedin, Facebook } from 'lucide-react';
+import React from "react";
+import {
+  Heart,
+  Mail,
+  Phone,
+  MapPin,
+  Instagram,
+  Linkedin,
+  Facebook,
+} from "lucide-react";
 
 const Footer = () => {
   return (
@@ -9,9 +17,9 @@ const Footer = () => {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center mb-4">
-              <img 
-                src="/images/logo.jpeg" 
-                alt="Sunita Life Coach" 
+              <img
+                src="/images/logo.jpeg"
+                alt="Sunita Life Coach"
                 className="h-6 w-6 sm:h-8 sm:w-8 mr-3 rounded-full"
               />
               <h3 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-violet-400 to-indigo-400 bg-clip-text text-transparent">
@@ -19,16 +27,26 @@ const Footer = () => {
               </h3>
             </div>
             <p className="text-gray-300 mb-4 text-sm sm:text-base">
-              Empowering individuals to unlock their potential and create extraordinary lives through transformational coaching.
+              Empowering individuals to unlock their potential and create
+              extraordinary lives through transformational coaching.
             </p>
             <div className="flex space-x-4">
-              <a href="https://instagram.com" className="text-gray-400 hover:text-violet-400 transition-colors">
+              <a
+                href="https://instagram.com"
+                className="text-gray-400 hover:text-violet-400 transition-colors"
+              >
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="https://linkedin.com" className="text-gray-400 hover:text-violet-400 transition-colors">
+              <a
+                href="https://linkedin.com"
+                className="text-gray-400 hover:text-violet-400 transition-colors"
+              >
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="https://facebook.com" className="text-gray-400 hover:text-violet-400 transition-colors">
+              <a
+                href="https://facebook.com"
+                className="text-gray-400 hover:text-violet-400 transition-colors"
+              >
                 <Facebook className="h-5 w-5" />
               </a>
             </div>
@@ -36,44 +54,137 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">Quick Links</h4>
+            <h4 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">
+              Quick Links
+            </h4>
             <ul className="space-y-1 sm:space-y-2">
-              <li><a href="#home" className="text-gray-300 hover:text-violet-400 transition-colors">Home</a></li>
-              <li><a href="#about" className="text-gray-300 hover:text-violet-400 transition-colors">About</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-violet-400 transition-colors">Services</a></li>
-              <li><a href="#testimonials" className="text-gray-300 hover:text-violet-400 transition-colors">Testimonials</a></li>
-              <li><a href="#faq" className="text-gray-300 hover:text-violet-400 transition-colors">FAQ</a></li>
-              <li><a href="#contact" className="text-gray-300 hover:text-violet-400 transition-colors">Contact</a></li>
+              <li>
+                <a
+                  href="#home"
+                  className="text-gray-300 hover:text-violet-400 transition-colors"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  className="text-gray-300 hover:text-violet-400 transition-colors"
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  className="text-gray-300 hover:text-violet-400 transition-colors"
+                >
+                  Services
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#testimonials"
+                  className="text-gray-300 hover:text-violet-400 transition-colors"
+                >
+                  Testimonials
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#faq"
+                  className="text-gray-300 hover:text-violet-400 transition-colors"
+                >
+                  FAQ
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  className="text-gray-300 hover:text-violet-400 transition-colors"
+                >
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
 
           {/* Services */}
           <div>
-            <h4 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">Services</h4>
+            <h4 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">
+              Services
+            </h4>
             <ul className="space-y-1 sm:space-y-2">
-              <li><a href="#services" className="text-gray-300 hover:text-violet-400 transition-colors">Mind Rewiring</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-violet-400 transition-colors">Life Coaching</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-violet-400 transition-colors">Career Guidance</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-violet-400 transition-colors">Relationship Coaching</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-violet-400 transition-colors">Wellness Programs</a></li>
+              <li>
+                <a
+                  href="#services"
+                  className="text-gray-300 hover:text-violet-400 transition-colors"
+                >
+                  Mind Rewiring
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  className="text-gray-300 hover:text-violet-400 transition-colors"
+                >
+                  Life Coaching
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  className="text-gray-300 hover:text-violet-400 transition-colors"
+                >
+                  Career Guidance
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  className="text-gray-300 hover:text-violet-400 transition-colors"
+                >
+                  Relationship Coaching
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  className="text-gray-300 hover:text-violet-400 transition-colors"
+                >
+                  Wellness Programs
+                </a>
+              </li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">Contact Info</h4>
+            <h4 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">
+              Contact Info
+            </h4>
             <div className="space-y-2 sm:space-y-3">
-              <div className="flex items-center space-x-2 sm:space-x-3">
+              <a
+                href="mailto:theshaktiawakens@gmail.com"
+                className="flex items-center space-x-2 sm:space-x-3 text-gray-300 text-sm sm:text-base break-all hover:text-violet-300"
+                aria-label="Send email to Sunita"
+              >
                 <Mail className="h-3 w-3 sm:h-4 sm:w-4 text-violet-400 flex-shrink-0" />
-                <span className="text-gray-300 text-sm sm:text-base break-all">theshaktiawakens@gmail.com</span>
-              </div>
-              <div className="flex items-center space-x-2 sm:space-x-3">
+                <span>theshaktiawakens@gmail.com</span>
+              </a>
+              <a
+                href="tel:+919279231459"
+                className="flex items-center space-x-2 sm:space-x-3 text-gray-300 text-sm sm:text-base hover:text-violet-300"
+                aria-label="Call Sunita on WhatsApp number"
+              >
                 <Phone className="h-3 w-3 sm:h-4 sm:w-4 text-violet-400 flex-shrink-0" />
-                <span className="text-gray-300 text-sm sm:text-base">+91-9279231459</span>
-              </div>
+                <span>+91-9279231459</span>
+              </a>
               <div className="flex items-center space-x-2 sm:space-x-3">
                 <MapPin className="h-3 w-3 sm:h-4 sm:w-4 text-violet-400 flex-shrink-0" />
-                <span className="text-gray-300 text-sm sm:text-base">Bangalore, India</span>
+                <span className="text-gray-300 text-sm sm:text-base">
+                  Bangalore, India
+                </span>
               </div>
             </div>
           </div>

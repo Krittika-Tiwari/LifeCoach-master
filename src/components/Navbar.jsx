@@ -75,6 +75,14 @@ const Navbar = () => {
             </li>
             <li>
               <Link
+                to="/#gallery"
+                className="text-foreground hover:text-primary transition-colors duration-200 capitalize relative hover:after:w-full after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-primary after:transition-all after:duration-200"
+              >
+                Gallery
+              </Link>
+            </li>
+            <li>
+              <Link
                 to="/#testimonials"
                 className="text-foreground hover:text-primary transition-colors duration-200 capitalize relative hover:after:w-full after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-primary after:transition-all after:duration-200"
               >
@@ -162,6 +170,15 @@ const Navbar = () => {
                 className="block text-foreground hover:text-primary py-2 transition-colors duration-200"
               >
                 Services
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/#gallery"
+                onClick={() => setIsOpen(false)}
+                className="block text-foreground hover:text-primary py-2 transition-colors duration-200"
+              >
+                Gallery
               </Link>
             </li>
             <li>

@@ -24,7 +24,7 @@ const FAQ = () => {
     {
       question: "Do you offer online coaching sessions?",
       answer:
-        "Yes! I offer both in-person and online coaching sessions via video calls. Online sessions are just as effective and allow for greater flexibility in scheduling, making coaching accessible regardless of your location.",
+        "Yes! I offer online coaching sessions via video calls. Online sessions are flexible, effective, and accessible no matter where you're located.",
     },
     {
       question: "What can I expect in our first session?",

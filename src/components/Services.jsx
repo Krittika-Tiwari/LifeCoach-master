@@ -7,7 +7,7 @@ const Services = () => {
   const services = [
     {
       icon: <Brain className="w-8 h-8" />,
-      title: "Mind Rewiring",
+      title: "Life Coaching and healing",
       description:
         "Transform limiting beliefs and negative thought patterns into empowering mindsets that drive success.",
     },

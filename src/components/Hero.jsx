@@ -73,10 +73,24 @@ const Hero = () => {
             {/* Contact Info */}
             <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 justify-center lg:justify-start text-xs sm:text-sm text-muted-foreground">
               <span className="text-center sm:text-left">
-                💬 WhatsApp: +91-9279231459
+                💬 WhatsApp:{" "}
+                <a
+                  href="https://wa.me/919279231459"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:text-primary"
+                >
+                  +91-9279231459
+                </a>
               </span>
               <span className="text-center sm:text-left">
-                ✉️ theshaktiawakens@gmail.com
+                ✉️{" "}
+                <a
+                  href="mailto:theshaktiawakens@gmail.com"
+                  className="hover:text-primary"
+                >
+                  theshaktiawakens@gmail.com
+                </a>
               </span>
               <span className="text-center sm:text-left">
                 📍 Bangalore, India
@@ -106,7 +120,7 @@ const Hero = () => {
 
               <div className="absolute -bottom-4 -left-4 bg-white dark:bg-gray-800 rounded-2xl p-4 shadow-xl">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-primary">5+</div>
+                  <div className="text-2xl font-bold text-primary">2+</div>
                   <div className="text-sm text-muted-foreground">
                     Years Experience
                   </div>
