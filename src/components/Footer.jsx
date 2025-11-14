@@ -166,6 +166,8 @@ const Footer = () => {
             <div className="space-y-2 sm:space-y-3">
               <a
                 href="mailto:theshaktiawakens@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center space-x-2 sm:space-x-3 text-gray-300 text-sm sm:text-base break-all hover:text-violet-300"
                 aria-label="Send email to Sunita"
               >
@@ -173,12 +175,25 @@ const Footer = () => {
                 <span>theshaktiawakens@gmail.com</span>
               </a>
               <a
-                href="tel:+919279231459"
+
+                href="https://wa.me/919279231459"
+                target="_blank"
+                rel="noreferrer"
                 className="flex items-center space-x-2 sm:space-x-3 text-gray-300 text-sm sm:text-base hover:text-violet-300"
                 aria-label="Call Sunita on WhatsApp number"
               >
                 <Phone className="h-3 w-3 sm:h-4 sm:w-4 text-violet-400 flex-shrink-0" />
                 <span>+91-9279231459</span>
+              </a>
+              <a
+
+                href="https://wa.me/919311656340"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center space-x-2 sm:space-x-3 text-gray-300 text-sm sm:text-base hover:text-violet-300"
+              >
+                <Phone className="h-3 w-3 sm:h-4 sm:w-4 text-violet-400 flex-shrink-0" />
+                <span>+91-9311656340 (Indian)</span>
               </a>
               <div className="flex items-center space-x-2 sm:space-x-3">
                 <MapPin className="h-3 w-3 sm:h-4 sm:w-4 text-violet-400 flex-shrink-0" />

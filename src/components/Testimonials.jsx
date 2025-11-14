@@ -17,7 +17,7 @@ const Testimonials = () => {
       name: "Rajesh Kumar",
       role: "Business Owner",
       image:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+        "https://img.freepik.com/premium-photo/portrait-young-bearded-indian-man-streets-outdoors_251136-80083.jpg",
       content:
         "Working with Sunita helped me break through limiting beliefs that were holding my business back. Her peak performance coaching increased my productivity by 300%. I finally achieved the work-life balance I dreamed of.",
       rating: 5,
@@ -26,7 +26,7 @@ const Testimonials = () => {
       name: "Anita Patel",
       role: "Homemaker & Entrepreneur",
       image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+        "https://imgcdn.stablediffusionweb.com/2024/3/11/d6e19ed8-61ac-4c19-bd84-8270bcbee8f9.jpg",
       content:
         "As a homemaker wanting to start my own business, I felt lost and overwhelmed. Sunita's confidence and clarity sessions gave me the courage to launch my dream venture. Today, I'm running a successful online business!",
       rating: 5,
@@ -35,7 +35,7 @@ const Testimonials = () => {
       name: "Vikram Singh",
       role: "College Student",
       image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+        "https://images.unsplash.com/photo-1618926749434-0578ceecdfab?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGluZGlhbiUyMG1hbnxlbnwwfHwwfHx8MA%3D%3D",
       content:
         "Sunita's healing sessions helped me overcome exam anxiety and fear of failure. Her time management techniques improved my grades dramatically. I'm now confident about my future and pursuing my passion in technology.",
       rating: 5,
@@ -44,7 +44,7 @@ const Testimonials = () => {
       name: "Meera Gupta",
       role: "Marketing Manager",
       image:
-        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+        "https://media.istockphoto.com/id/1313502972/photo/portrait-of-beautiful-woman-having-fun.jpg?s=612x612&w=0&k=20&c=DHGWp3wIoSlpjK9xFdARpgpyo4t-hIzuqOSx5ZyRsHA=",
       content:
         "The HRCM coaching program transformed every aspect of my life. My relationships improved, my career took off, my health is better, and I finally have financial clarity. Sunita is truly a life-changing mentor!",
       rating: 5,

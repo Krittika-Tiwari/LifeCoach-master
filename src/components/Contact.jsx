@@ -82,6 +82,8 @@ const Contact = () => {
               <div className="space-y-4 sm:space-y-6">
                 <a
                   href="mailto:theshaktiawakens@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center space-x-4 hover:text-violet-600 dark:hover:text-violet-300"
                 >
                   <div className="bg-violet-100 dark:bg-violet-900 p-3 rounded-lg">

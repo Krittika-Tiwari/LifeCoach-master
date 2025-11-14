@@ -87,6 +87,8 @@ const Hero = () => {
                 ✉️{" "}
                 <a
                   href="mailto:theshaktiawakens@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:text-primary"
                 >
                   theshaktiawakens@gmail.com
