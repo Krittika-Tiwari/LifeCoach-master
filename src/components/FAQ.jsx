@@ -5,38 +5,59 @@ import { Link } from "react-router-dom";
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
-  const faqs = [
-    {
-      question: "What is life coaching and how can it help me?",
-      answer:
-        "Life coaching is a collaborative process that helps you identify and achieve your personal and professional goals. Through powerful questioning, accountability, and support, I help you overcome obstacles, gain clarity, and create lasting positive changes in your life.",
-    },
-    {
-      question: "How long does a typical coaching program last?",
-      answer:
-        "Most coaching programs range from 3-6 months, depending on your goals and needs. We'll work together to create a customized timeline that allows for meaningful progress while respecting your schedule and budget.",
-    },
-    {
-      question: "What's the difference between coaching and therapy?",
-      answer:
-        "Coaching focuses on your present and future, helping you move forward toward your goals. While therapy often addresses past issues and healing, coaching is action-oriented and designed to help you achieve specific outcomes and unlock your potential.",
-    },
-    {
-      question: "Do you offer online coaching sessions?",
-      answer:
-        "Yes! I offer online coaching sessions via video calls. Online sessions are flexible, effective, and accessible no matter where you're located.",
-    },
-    {
-      question: "What can I expect in our first session?",
-      answer:
-        "In our discovery session, we'll explore your current situation, identify your goals, and discuss how coaching can help you. This is also an opportunity for you to ask questions and determine if we're a good fit to work together.",
-    },
-    {
-      question: "How do I know if coaching is right for me?",
-      answer:
-        "Coaching is ideal if you're ready to make positive changes, willing to take action, and committed to your growth. If you feel stuck, want to achieve specific goals, or desire greater fulfillment in life, coaching can be transformational.",
-    },
-  ];
+ const faqs = [
+   {
+     question: "What do you help people with?",
+     answer:
+       "I help students, working professionals, and homemakers improve focus, confidence, emotional balance, and clarity through mind rewiring and energy upgrade techniques.",
+   },
+   {
+     question: "What is brain/mind rewiring?",
+     answer:
+       "It is a process that replaces limiting thoughts with high-performance habits, using simple tools like NLP, subconscious programming, and mindset correction.",
+   },
+   {
+     question: "Who can join your coaching?",
+     answer:
+       "Anyone feeling stuck, stressed, low in confidence, or wanting better focus, productivity, and life direction.",
+   },
+   {
+     question: "What results can I expect?",
+     answer:
+       "Better concentration, stronger confidence, emotional stability, clarity in goals, and an overall rise in energy and performance.",
+   },
+   {
+     question: "What methods do you use?",
+     answer:
+       "A blend of NLP, subconscious mind tools, habit-building, emotional healing, and practical life strategies.",
+   },
+   {
+     question: "Are your sessions easy for students or beginners?",
+     answer:
+       "Yes. Sessions are simple, interactive, and activity-based, suitable for all maturity levels.",
+   },
+   {
+     question: "How soon will I see results?",
+     answer:
+       "Most people feel a shift from the first session, with deeper changes in 21–45 days.",
+   },
+   {
+     question: "Do you offer personalized coaching?",
+     answer:
+       "Yes—1:1 sessions, student programs, professional clarity sessions, and workshops for schools and groups.",
+   },
+   {
+     question: "Are online sessions effective?",
+     answer:
+       "Yes. They are equally impactful and convenient from any location.",
+   },
+   {
+     question: "How do I book a session?",
+     answer:
+       "Click on the “Book Session” or “Contact Now” button on the website.",
+   },
+ ];
+
 
   const toggleFAQ = (index) => {
     setOpenIndex(openIndex === index ? null : index);
